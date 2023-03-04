@@ -3,15 +3,14 @@
 namespace L01_2020SS603.Models
 
 {
-    public class usuarios
+    public class calificaciones
     {
         [Key]
+        public int calificacionId { get; set; }
+        public int publicionId { get; set; }
         public int usuarioId { get; set; }
-        public int rolld { get; set; }
-        public string nombreUsuario { get; set; }
-        public string clave { get; set; }
-        public string nombre { get; set; }
-        public string apellido { get; set; }
+        public int calificacion { get; set; }
+      
 
     }
 }
